@@ -1,0 +1,26 @@
+{
+	"name": "trigger4scrmin",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/src4min/blobs/",
+			"blobPathEndsWith": "/Staging_schemascopy.xlsx",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/05a64aa9-3ece-47e2-b03b-14e0ead53124/resourceGroups/ppsi-lab/providers/Microsoft.Storage/storageAccounts/adf4ppsi",
+			"events": [
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
+			]
+		}
+	}
+}

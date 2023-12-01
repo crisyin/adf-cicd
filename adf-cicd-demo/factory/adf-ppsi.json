@@ -1,0 +1,9 @@
+{
+	"name": "adf-ppsi",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0cafb121-9173-4684-93d0-e5db1ff871bd",
+		"tenantId": "b021b1af-967f-4048-91fc-695d0dfac1a9"
+	}
+}
