@@ -1,0 +1,17 @@
+{
+	"name": "cris-demo",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait3s",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 3
+				}
+			}
+		],
+		"annotations": []
+	}
+}
